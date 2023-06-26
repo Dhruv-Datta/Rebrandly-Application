@@ -26,14 +26,14 @@ def create_rebranded_link():
     if len(qwlink) > 1 and len(qwdocnumber) > 1:
         linkRequest = {
             "destination": "{}".format(qwlink)
-            , "domain": {"fullName": "cloudtopoffice.info"}
+            , "domain": {"fullName": "domain_goes_here"}
             , "slashtag": "{}".format(qwdocnumber)
         }
 
         requestHeaders = {
             "Content-type": "application/json",
-            "apikey": "cb004ceb552346a4830acec9593e3157",
-            "workspace": "26c9957d52284f7f950c0791ab6520c4"
+            "apikey": "apikey_goes_here",
+            "workspace": ""workspace_id_goes_here""
         }
 
         r = requests.post("https://api.rebrandly.com/v1/links",
