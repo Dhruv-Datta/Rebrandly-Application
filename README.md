@@ -67,7 +67,7 @@ pyinstaller --onefile --noconsole Rebrandly-App-GUI.py
 
 This will create a new exe file in a DICT folder in the folder you run the python code in. You can move this exe file anywhere you would like.
 
-I would reccomend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey.
+I would recommend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey.
 
 
 ## Rebrandly Text Integration
