@@ -1,9 +1,12 @@
 # Rebrandly Integration Documentation
 
-This Documentation is split into 3 sections: 
+This Documentation is split into 4 sections: 
 
 * API Integration
 * Rebrandly Application GUI
+     1. What the application does
+     2. How to setup the python scripts to work on your computer
+* Rebrandly Clipboard
      1. What the application does
      2. How to setup the python scripts to work on your computer
 * Rebrandly Text Integration
@@ -68,6 +71,34 @@ pyinstaller --onefile --noconsole Rebrandly-App-GUI.py
 This will create a new exe file in a DICT folder in the folder you run the python code in. You can move this exe file anywhere you would like.
 I would recommend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey. 
 Once you have the exe file ready, thats all the steps completed and you can start using the GUI freely!
+
+
+## Rebrandly Clipboard
+### Application Function
+The Rebrandly Application is a Python script that can use your clipboard (copy input for windows) for rebranding and shortening URLs using the Rebrandly API. It allows for a fast and efficient process of rebranding links.
+
+Using Rebrandly Clipboard:
+1. Copy the link you would like to rebrand (ctrl c)
+2. Press the shortcut key to start Rebrandly-Clipboard.exe file
+3. Input Slashtag into the Command Prompt
+4. The link will be in your clipboard and you can paste it where you would like (ctrl v) 
+
+This is the easiest and most efficient way to rebrand link.
+
+### Setup exe file
+To make this python file run on any computer, you can convert it into an exe. You would do this with the following code:
+
+```cmd
+pip install pyinstaller
+
+cd C:Path\to\file\Rebrandly-Clipboard.py
+
+pyinstaller --onefile Rebrandly-App-GUI.py
+```
+
+This will create a new exe file in a DICT folder in the folder you run the python code in. You can move this exe file anywhere you would like.
+I would HIGHLY recommend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey. 
+Once you have the exe file ready, thats all the steps completed and you can start using the application freely!
 
 
 ## Rebrandly Text Integration
