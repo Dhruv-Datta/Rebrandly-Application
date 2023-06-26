@@ -42,13 +42,17 @@ If you do not know how to get your API Key and Workspace ID, refer to the Rebran
 ### Application Function
 The Rebrandly Application is a Python script that provides a graphical user interface (GUI) for rebranding and shortening URLs using the Rebrandly API. It allows you to customize their links with custom slashtags and titles, making them more visually appealing. 
 
-*** You must have a valid Rebrandly Account and access your api key and workspace id! ***
+**You must have a valid Rebrandly Account and access your api key and workspace id!**
 
 1. Users can also enter a custom slashtag, which is a unique identifier added to the shortened URL.
 2. Optionally, users can provide a title for the rebranded link. This title will not actually show up in your rebranded link, it is for the Rebrandly Website when
    you hover over the link.
 3. Once the necessary information is entered, users can click the corresponding buttons to confirm the link, slashtag, and title.
 4. Finally, users can click the "Rebrand Link" button to create the rebranded URL using the Rebrandly API. The rebranded link is displayed on the GUI.
+
+**The App-GUI-Test.py is a file for developers. It is to freely test the GUI functions and understand if any changes to the code will work without requesting multiple API calls (as there is only a certain number of links you can generate in rebrandly per month).
+App-GUI-Test.py is NOT USED in the final product. This documentation is for the Rebrandly-App-GUI.py**
+
 
 ### Setup exe file
 To make this python file run on any computer, you can convert it into an exe. You would do this with the following code:
