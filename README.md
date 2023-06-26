@@ -72,7 +72,7 @@ Once you have the exe file ready, thats all the steps completed and you can star
 
 ## Rebrandly Text Integration
 ### Application Function
-The Rebrandly Text Integration makes rebranding links easier by using the Rebrandly API to push requests out easier using a text file to input the link and slashtag quickly.
+The Rebrandly Text Integration makes rebranding links easier by using the Rebrandly API to push requests out easier using a text file to input the link and slashtag quickly. There will be a .txt file to paste the link into, and then you run an .exe file. This exe file will convert the previous link into a new link.
 
 Before using the Rebrandly Text Integration, put setup.py and Rebrandly-text-integration.py into 1 folder.
 
