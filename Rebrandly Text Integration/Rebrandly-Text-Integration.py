@@ -1,6 +1,3 @@
-# There will be a .txt file to paste the link into, and then you run an .exe file.
-# This exe file will convert that link into a new link
-
 import requests
 import json
 import os
