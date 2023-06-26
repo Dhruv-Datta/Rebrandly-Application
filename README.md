@@ -12,9 +12,10 @@ This Documentation will be split into 2 parts:
 ## API Integration
 Before making any exe files or attempting to start implementing this code, you will need to change the Rebrandly API integration in the code.
 
-In the code, under the function
+In the code, under the function `create_rebranded_link()`, look for the following code snipet:
+
 ```python
-create_rebranded link
+
 ```
 
 
