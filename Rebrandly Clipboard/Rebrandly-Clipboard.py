@@ -8,14 +8,14 @@ slashtag = input('Enter Slashtag: ')
 
 linkRequest = {
     "destination": f"{old_link}",
-    "domain": {"fullName": "cloudtopoffice.info"},
+    "domain": {"fullName": "domain_goes_here"},
     "slashtag": f"{slashtag}",
 }
 
 requestHeaders = {
     "Content-type": "application/json",
-    "apikey": "cb004ceb552346a4830acec9593e3157",
-    "workspace": "26c9957d52284f7f950c0791ab6520c4",
+    "apikey": "apikey_goes_here",
+    "workspace": "workspace_id_goes_here",
 }
 
 r = requests.post(
