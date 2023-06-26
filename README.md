@@ -1,7 +1,8 @@
 # Rebrandly Integration Documentation
 
-This Documentation will be split into 2 parts: 
+This Documentation will be split into 3 parts: 
 
+* API Integration
 * Rebrandly Application GUI
      1. What the application does
      2. How to setup the python scripts to work on your computer
