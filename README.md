@@ -1,6 +1,6 @@
 # Rebrandly Integration Documentation
 
-This Documentation will be split into 3 parts: 
+This Documentation is split into 3 sections: 
 
 * API Integration
 * Rebrandly Application GUI
