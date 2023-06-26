@@ -33,7 +33,7 @@ requestHeaders = {
    "workspace": "workspace_id_goes_here",
 }
 ```
-In the `"apikey"` and `"workspace"` section of this hashtable, replace `"apikey_goes_here"` with your api key and `"workspace_id_goes_here"` with your workspace id. DO NOT REPLACE "application/json"!
+In the `"apikey"` and `"workspace"` section of this hashtable, replace `"apikey_goes_here"` with your api key and `"workspace_id_goes_here"` with your workspace id. DO NOT REPLACE `"application/json"`!
 
 If you do not know how to get your API Key and Workspace ID, refer to the Rebrandly API Link: https://developers.rebrandly.com/docs
 
