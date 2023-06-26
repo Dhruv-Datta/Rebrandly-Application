@@ -66,16 +66,15 @@ pyinstaller --onefile --noconsole Rebrandly-App-GUI.py
 ```
 
 This will create a new exe file in a DICT folder in the folder you run the python code in. You can move this exe file anywhere you would like.
-
-I would recommend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey.
+I would recommend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey. 
+Once you have the exe file ready, thats all the steps completed and you can start using the GUI freely!
 
 
 ## Rebrandly Text Integration
 ### Application Function
-The Rebrandly App makes rebranding links easier by using the Rebrandly API to push requests out easier using a text file to input the link and slashtag quickly.
+The Rebrandly Text Integration makes rebranding links easier by using the Rebrandly API to push requests out easier using a text file to input the link and slashtag quickly.
 
-Before using the Rebrandly App, put Rebrandly Input and Rebrandly App into 1 folder (for ease of access
-I reccomend you store the README File and Setup File in the same folder as well.)
+Before using the Rebrandly Text Integration, put setup.py and Rebrandly-text-integration.py into 1 folder.
 
 Using the Rebrandly App:
 1. Open the Rebrandly Input text file
@@ -113,4 +112,6 @@ pyinstaller --onefile --noconsole setup.py
 ```
 
 This will create 2 new exe file in a DICT folder in the folder you run the python code in. You can move this exe file anywhere you would like.
+
+When you make the new exe files, put them into a folder together and run the setup.exe and you will be all set to start using the Rebrandly Text Integration!
 
