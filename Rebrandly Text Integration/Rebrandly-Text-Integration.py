@@ -33,7 +33,7 @@ def create_rebranded_link():
         requestHeaders = {
             "Content-type": "application/json",
             "apikey": "apikey_goes_here",
-            "workspace": ""workspace_id_goes_here""
+            "workspace": "workspace_id_goes_here"
         }
 
         r = requests.post("https://api.rebrandly.com/v1/links",
