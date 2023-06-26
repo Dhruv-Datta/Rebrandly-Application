@@ -9,14 +9,32 @@ This Documentation will be split into 2 parts:
      1. What the application does
      2. How to setup the python scripts to work on your computer
 
+
 ## API Integration
-Before making any exe files or attempting to start implementing this code, you will need to change the Rebrandly API integration in the code.
+Before making any exe files or attempting to start implementing this code, you will need to change the Rebrandly API integration in the code. In order to do this you must have a valid subscription with Rebrandly.
 
 In the code, under the function `create_rebranded_link()`, look for the following code snipet:
 
 ```python
-
+linkRequest = {
+   "destination": f"{data_for_link['link']}",
+   "domain": {"fullName": "domain_goes_here"},
+   "slashtag": f"{data_for_link['slashtag']}",
+   "title": f"{data_for_link['title']}"
+}
 ```
+In the `"domain"` section of the hash table, replace `"domain_goes_here"` with your company domain. DO NOT REPLACE `"fullName": `!
+
+```python
+requestHeaders = {
+   "Content-type": "application/json",
+   "apikey": "apikey_goes_here",
+   "workspace": "workspace_id_goes_here",
+}
+```
+In the apikey section and workspace section of this hashtable, replace `"apikey_goes_here"` with your api key and `"workspace_id_goes_here"` with your workspace id. DO NOT REPLACE "application/json"!
+
+If you do not know how to get your API Key and Workspace ID, refer to the Rebrandly API Link: https://developers.rebrandly.com/docs
 
 
 ## Rebrandly App GUI
@@ -45,6 +63,7 @@ pyinstaller --onefile --noconsole Rebrandly-App-GUI.py
 This will create a new exe file in a DICT folder in the folder you run the python code in. You can move this exe file anywhere you would like.
 
 I would reccomend creating a shortcut for this application so that whenever you would like to create a new link it is instantanously opened with a hotkey.
+
 
 ## Rebrandly Text Integration
 ### Application Function
